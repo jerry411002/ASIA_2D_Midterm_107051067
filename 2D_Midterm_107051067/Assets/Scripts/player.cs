@@ -1,16 +1,13 @@
 ﻿
 using UnityEngine;
-using UnityEngine.SceneManagement;
-public class MenuManager : MonoBehaviour
+
+public class player : MonoBehaviour
 {
- public void StartGame()
+    public GameObject final;
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("開始遊戲");
-        SceneManager.LoadScene("關卡1");
-    }
- public void QuitGame()
-    {
-        print("離開遊戲");
-        Application.Quit();
+        print("碰到傳送們了");
+        final.SetActive(true);
     }
 }
