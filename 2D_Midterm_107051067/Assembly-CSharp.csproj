@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\KID\CameraControl.cs" />
+    <Compile Include="Assets\KID\CharacterMovement2D.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MenuManger.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
     <None Include="Assets\場景素材\setofont\readme.txt" />
